@@ -25,7 +25,15 @@ const language = {
         q3_content: "Large-scale upgrade of the main network to support service mesh development. This enables more applications to interact with the blockchain network.",
         q4_title: "Consortium chain integration",
         q4_content: "Develop a consortium chain compatible with FutureCoin, and interact with the FutureCoin.\nAnd open the consortium chain platform, so that applications can be deployed based on the consortium chain, and seamless and trusted data exchange between enterprises and enterprises.",
-        are_ready: "Are you ready to join us"
+        are_ready: "Are you ready to join us",
+        about: "about",
+        support: "help & support.",
+        connected: "stay connected on.",
+        links: "quick links.",
+        TestNet_Explorer: "TestNet Explorer",
+        TestNet_Web_Wallet: "TestNet Web Wallet",
+        Exchange: "Exchange",
+        Pre_Wallet: "Pre Wallet"
     },
     fr: {
         home: "d'accueil",
@@ -53,7 +61,15 @@ const language = {
         q3_content: "Mise à niveau à grande échelle du réseau principal pour prendre en charge le développement du maillage de services. Cela permet à plus d'applications d'interagir avec le réseau blockchain.",
         q4_title: "Intégration de la chaîne du consortium",
         q4_content: "Développez une chaîne de consortium compatible avec FutureCoin et interagissez avec FutureCoin.\nEt ouvrez la plate-forme de chaîne de consortium, afin que les applications puissent être déployées sur la base de la chaîne de consortium et d'un échange de données transparent et fiable entre les entreprises et les entreprises.",
-        are_ready: "Êtes-vous prêt à nous rejoindre"
+        are_ready: "Êtes-vous prêt à nous rejoindre",
+        about: "à propos",
+        support: "help & support.",
+        connected: "support d'aide.",
+        links: "Liens rapides.",
+        TestNet_Explorer: "Explorateur TestNet",
+        TestNet_Web_Wallet: "Portefeuille Web TestNet",
+        Exchange: "Échanger",
+        Pre_Wallet: "Pré portefeuille"
     },
     jp: {
         home: "ホーム",
@@ -81,7 +97,15 @@ const language = {
         q3_content: "サービスメッシュ開発をサポートするためのメインネットワークの大規模なアップグレード。 これにより、より多くのアプリケーションがブロックチェーンネットワークと対話できるようになります。",
         q4_title: "コンソーシアムチェーン 集成",
         q4_content: "FutureCoinと互換性のあるコンソーシアムチェーンを開発し、FutureCoinと集成します。\nまた、コンソーシアムチェーンプラットフォームを開いて、コンソーシアムチェーンに基づいてアプリケーションを展開し、企業間でシームレスで信頼できるデータ交換を行えるようにします。",
-        are_ready: "参加する準備はできていますか"
+        are_ready: "参加する準備はできていますか",
+        about: "私たちに関しては",
+        support: "ヘルプサポート",
+        connected: "接続を維持します",
+        links: "クイックリンク",
+        TestNet_Explorer: "TestNet Explorer",
+        TestNet_Web_Wallet: "TestNet Web Wallet",
+        Exchange: "Exchange",
+        Pre_Wallet: "Pre Wallet"
     },
     de: {
         home: "Startseite",
@@ -109,7 +133,15 @@ const language = {
         q3_content: "Umfangreiches Upgrade des Hauptnetzwerks zur Unterstützung der Service-Mesh-Entwicklung. Dadurch können mehr Anwendungen mit dem Blockchain-Netzwerk interagieren.",
         q4_title: "Konsortialkettenintegration",
         q4_content: "Entwickeln Sie eine mit FutureCoin kompatible Konsortiumskette und interagieren Sie mit FutureCoin.\nUnd öffnen Sie die Konsortialkettenplattform, sodass Anwendungen basierend auf der Konsortialkette bereitgestellt werden können und ein nahtloser und vertrauenswürdiger Datenaustausch zwischen Unternehmen und Unternehmen möglich ist.",
-        are_ready: "Bist du bereit, bei uns mitzumachen"
+        are_ready: "Bist du bereit, bei uns mitzumachen",
+        about: "Über",
+        support: "Hilfe Unterstützung.",
+        connected: "Bleiben Sie in Verbindung.",
+        links: "schnelle Links.",
+        TestNet_Explorer: "TestNet Explorer",
+        TestNet_Web_Wallet: "TestNet Web Wallet",
+        Exchange: "Exchange",
+        Pre_Wallet: "Pre Wallet"
     },
     cn: {
         home: "主页",
@@ -137,7 +169,15 @@ const language = {
         q3_content: "对主网进行大规模升级，支持网格开发。使得更多的应用能够与区块链网络进行交互。",
         q4_title: "联盟链集成",
         q4_content: "开发与Future Coin链兼容的联盟链，并与Future Coin链对接交互。\n并开放联盟链平台，使得应用可以基于联盟链进行部署，企业与企业间可无缝的，信任的交互数据。",
-        are_ready: "准备好加入我们了吗"
+        are_ready: "准备好加入我们了吗",
+        about: "关于",
+        support: "帮助与支持",
+        connected: "保持联系",
+        links: "快速链接",
+        TestNet_Explorer: "测试网区块链浏览器",
+        TestNet_Web_Wallet: "测试网网页钱包",
+        Exchange: "交易所",
+        Pre_Wallet: "先行钱包"
     }
 }
 
