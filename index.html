@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Future Coin (FUC)</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+<div id="page-preloader"><span class="spinner"></span></div>
+
+<!-- ================================
+            START HEADER AREA
+================================= -->
+<header class="header-area">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 offset-6">
+                    <div class="header-top-info header-login-info">
+                        <ul class="info-list">
+                            <li>
+                                <a href="javascript:;" id="lang-selected">
+                                    <img src="images/lang-en.jpg" alt="English">&nbsp;<b>English</b>
+                                    <i class="fas fa-caret-down"></i>
+                                </a>
+                                <ul class="lang-drop-menu">
+                                   <li>
+                                       <a href="javascript:;" onclick="refreshLanguage('en')">
+                                           <img src="images/lang-en.jpg" alt="English">
+                                           English
+                                       </a>
+                                       <a href="javascript:;" onclick="refreshLanguage('de')">
+                                           <img src="images/lang-de.png" alt="Deutsch">
+                                           Deutsch
+                                       </a>
+                                       <a href="javascript:;" onclick="refreshLanguage('fr')">
+                                           <img src="images/lang-fr.png" alt=" French">
+                                           Français
+                                       </a>
+                                       <a href="javascript:;" onclick="refreshLanguage('cn')">
+                                           <img src="images/lang-cn.png" alt="Chinese">
+                                           中文
+                                       </a>
+                                       <a href="javascript:;" onclick="refreshLanguage('jp')">
+                                           <img src="images/lang-jp.png" alt="Japanese">
+                                           日本語
+                                       </a>
+                                   </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- end header-top-info -->
+                </div><!-- end col-lg-6 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end header-top -->
+    <div class="header-menu-wrapper">
+        <div class="container">
+            <div class="row header-menu-row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <a href="/"> <img src="images/logo.png" alt="logo"></a>
+                    </div><!-- end logo -->
+                </div><!-- end col-lg-3-->
+                <div class="col-lg-9 main-menu-wrapper">
+                    <div class="main-menu-content">
+                        <nav>
+                            <ul>
+                                <li><a href="/" i18n="home">Home</a></li>
+                                <li><a href="#about-us" i18n="about">About</a></li>
+                                <li><a href="https://wallet.fucexchange.com/" i18n="wallet">Wallet</a></li>
+                            </ul>
+                        </nav>
+                        <div class="logo-right-button">
+                            <div class="side-menu-open">
+                                <span class="menu__bar"></span>
+                                <span class="menu__bar"></span>
+                                <span class="menu__bar"></span>
+                            </div><!-- end side-menu-open -->
+                        </div><!-- end logo-right-button -->
+                    </div><!-- end main-menu-content -->
+                </div><!-- end col-lg-9 -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end header-menu-wrapper -->
+    <div class="side-nav-container">
+        <div class="humburger-menu">
+            <div class="humburger-menu-lines side-menu-close"></div><!-- end humburger-menu-lines -->
+        </div><!-- end humburger-menu -->
+        <div class="side-menu-wrap">
+            <ul class="side-menu-ul">
+                <li><a href="/" i18n="home">Home</a></li>
+                                <li><a href="#about-us" i18n="about">About</a></li>
+                                <li><a href="https://wallet.fucexchange.com/" i18n="wallet">Wallet</a></li>
+            </ul>
+        </div><!-- end side-menu-wrap -->
+    </div><!-- end side-nav-container -->
+</header>
+<!-- ================================
+         END HEADER AREA
+================================= -->
+
+<!-- ================================
+    START HERO AREA
+================================= -->
+<section class="hero-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="hero-content">
+                    <h1 class="hero__title">Enterprise Oriented Blockchain</h1>
+                    <p class="hero__desc" i18n="banner_desc"></p>
+                    <div class="hero-btn">
+<!--                        <a class="mfp-iframe video-play-btn" href="" title="Play Video">-->
+<!--                            Watch a Video <i class="fa fa-play"></i>-->
+<!--                        </a>-->
+                    </div>
+                </div><!-- end hero-content -->
+            </div><!-- end col-lg-7 -->
+            <div class="col-lg-5">
+                <div class="hero-img-box">
+                    <img src="images/banner-global.png" alt="vector image" class="hero__global">
+                    <img src="images/banner-out.png" alt="vector image" class="hero__out">
+                    <img src="images/banner-logo.png" alt="vector image">
+                </div><!-- end hero-img-box -->
+            </div><!-- end col-lg-5 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+    <svg class="wave-svg-box" viewBox="0 0 120 28">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="
+           1 0 0 0 0
+           0 1 0 0 0
+           0 0 1 0 0
+           0 0 0 13 -9" result="goo" />
+                <xfeBlend in="SourceGraphic" in2="goo" />
+            </filter>
+            <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+        </defs>
+
+        <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use>
+        <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+        <g class="gooeff" filter="url(#goo)">
+            <circle class="drop drop1" cx="20" cy="2" r="8.8"  />
+            <circle class="drop drop2" cx="25" cy="2.5" r="7.5"  />
+            <circle class="drop drop3" cx="16" cy="2.8" r="9.2"  />
+            <circle class="drop drop4" cx="18" cy="2" r="8.8"  />
+            <circle class="drop drop5" cx="22" cy="2.5" r="7.5"  />
+            <circle class="drop drop6" cx="26" cy="2.8" r="9.2"  />
+            <circle class="drop drop1" cx="5" cy="4.4" r="8.8"  />
+            <circle class="drop drop2" cx="5" cy="4.1" r="7.5"  />
+            <circle class="drop drop3" cx="8" cy="3.8" r="9.2"  />
+            <circle class="drop drop4" cx="3" cy="4.4" r="8.8"  />
+            <circle class="drop drop5" cx="7" cy="4.1" r="7.5"  />
+            <circle class="drop drop6" cx="10" cy="4.3" r="9.2"  />
+
+            <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
+            <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
+            <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
+            <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
+            <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
+            <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
+            <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+        </g>
+    </svg>
+</section><!-- end hero-area -->
+<!-- ================================
+    END HERO AREA
+================================= -->
+
+<!-- ================================
+       START ABOUT AREA
+================================= -->
+<section class="about-area" id="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-item">
+                    <div class="sec-heading">
+                        <div class="heading-circle"></div>
+                        <p class="sec__meta" i18n="about_fuc"></p>
+                        <h2 class="sec__title" i18n="let_in"></h2>
+                        <p class="sec__desc sec__desc2" i18n="satisfied"></p>
+                        <p class="sec__desc" i18n="mission"></p>
+                        <p class="sec__desc" i18n="mission2"></p>
+                    </div><!-- end sec-heading -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="button-shared-wrap">
+                                <a href="https://file.futurecoin.global/file/futurecoin/FutureCoin+White+Paper.pdf" class="theme-btn" i18n="whitepaper"></a>
+                            </div><!-- end button-shared-wrap -->
+                        </div><!-- end col-lg-12 -->
+                    </div><!-- end row -->
+                </div><!-- end about-item -->
+            </div><!-- end col-lg-6 -->
+            <div class="col-lg-5 ml-auto">
+                <div class="about-img-box">
+                    <img src="images/img1.png" alt="about us" class="about-img">
+                    <img src="images/img2.png" alt="about us" class="about-img">
+<!--                    <a class="mfp-iframe video-play-btn" href="" title="Play Video">-->
+<!--                        <i class="fab fa-youtube"></i>-->
+<!--                    </a>-->
+                    <span class="heboo-text">FUC</span>
+                </div><!-- end about-img-box -->
+            </div><!-- end col-lg-5 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end about-area -->
+<!-- ================================
+       START ABOUT AREA
+================================= -->
+
+<!-- ================================
+       START HOWITWORKS AREA
+================================= -->
+<section class="howitworks-area text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sec-heading">
+                    <h2 class="sec__title" i18n="fuc_char"></h2>
+                </div><!-- end sec-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="row hiw-content">
+            <div class="col-lg-4">
+                <div class="hiw-item">
+                    <div class="flaticon__icon">
+                        <span class="flaticon-014-bitcoin-13"></span>
+                    </div>
+                    <h3 class="hiw__title"><a href="javascript:;" i18n="safe"></a></h3>
+                    <p class="hiw__desc" i18n="safe_desc"></p>
+                </div><!-- end hiw-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="hiw-item">
+                    <div class="flaticon__icon">
+                        <span class="flaticon-031-bitcoin-4"></span>
+                    </div>
+                    <h3 class="hiw__title"><a href="javascript:;">DPoSS</a></h3>
+                    <p class="hiw__desc" i18n="con_desc"></p>
+                </div><!-- end hiw-item -->
+            </div><!-- end col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="hiw-item">
+                    <div class="flaticon__icon">
+                        <span class="flaticon-001-bitcoin-20"></span>
+                    </div>
+                    <h3 class="hiw__title"><a href="javascript:;" i18n="econ"></a></h3>
+                    <p class="hiw__desc" i18n="econ_desc"></p>
+                </div><!-- end hiw-item -->
+            </div><!-- end col-lg-4 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end howitworks-area -->
+<!-- ================================
+       START HOWITWORKS AREA
+================================= -->
+
+<!-- ================================
+       START ROADMAP AREA
+================================= -->
+<section class="roadmap-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="sec-heading text-center">
+                    <h2 class="sec__title" i18n="roadmap"></h2>
+                </div><!-- end sec-heading -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="road-map">
+                    <li class="happening clearfix">
+                        <div class="happening-period">
+                            <p class="happening__desc">Q1 2021</p>
+                        </div>
+                        <div class="happening-detail">
+                            <h3 class="happening__title" i18n="q1_title"></h3>
+                            <p class="happening__desc" i18n="q1_content"></p>
+                        </div>
+                    </li>
+                    <li class="happening clearfix">
+                        <div class="happening-period">
+                            <p class="happening__desc">Q2 2022</p>
+                        </div>
+                        <div class="happening-detail">
+                            <h3 class="happening__title" i18n="q2_title"></h3>
+                            <p class="happening__desc" i18n="q2_content"></p>
+                        </div>
+                    </li>
+                    <li class="happening clearfix">
+                        <div class="happening-period">
+                            <p class="happening__desc">Q3 About 2025</p>
+                        </div>
+                        <div class="happening-detail">
+                            <h3 class="happening__title" i18n="q3_title"></h3>
+                            <p class="happening__desc" i18n="q3_content"></p>
+                        </div>
+                    </li>
+                    <li class="happening clearfix">
+                        <div class="happening-period">
+                            <p class="happening__desc">Q4 About 2027</p>
+                        </div>
+                        <div class="happening-detail">
+                            <h3 class="happening__title" i18n="q4_title"></h3>
+                            <p class="happening__desc" i18n="q4_content"></p>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end roadmap-area -->
+<!-- ================================
+       START ROADMAP AREA
+================================= -->
+
+<!-- ================================
+       START CTA AREA
+================================= -->
+<section class="cta-area">
+    <div class="box-icons">
+        <div class="box-one"></div>
+        <div class="box-two"></div>
+        <div class="box-three"></div>
+    </div><!-- end box-icons -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="sec-heading">
+                    <h2 class="sec__title" i18n="are_ready"></h2>
+                </div><!-- end sec-heading -->
+            </div><!-- end col-lg-8 -->
+        </div><!-- end row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="divider">
+                    <span class="divider__circle"></span>
+                </div><!-- end divider -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section><!-- end cta-area -->
+<!-- ================================
+       START CTA AREA
+================================= -->
+
+<!-- ================================
+         END FOOTER AREA
+================================= -->
+<section class="footer-area">
+    <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1047.1 3.7" preserveAspectRatio="xMidYMin slice">
+        <path class="elementor-shape-fill" d="M1047.1,0C557,0,8.9,0,0,0v1.6c0,0,0.6-1.5,2.7-0.3C3.9,2,6.1,4.1,8.3,3.5c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3C13.8,2,16,4.1,18.2,3.5c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3C23.6,2,25.9,4.1,28,3.5c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3C63,2,65.3,4.1,67.4,3.5	C68.3,3.3,69,1.6,69,1.6s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	C82.7,2,85,4.1,87.1,3.5c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3C92.6,2,94.8,4.1,97,3.5c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9	c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9c0,0,0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2	c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.7-0.3	c1.2,0.7,3.5,2.8,5.6,2.2c0.9-0.2,1.5-1.9,1.5-1.9s0.6-1.5,2.6-0.4V0z M2.5,1.2C2.5,1.2,2.5,1.2,2.5,1.2C2.5,1.2,2.5,1.2,2.5,1.2z M2.7,1.4c0.1,0,0.1,0.1,0.1,0.1C2.8,1.4,2.8,1.4,2.7,1.4z"></path>
+    </svg>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-shared">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="footer logo" class="footer__logo">
+                    </a>
+                    <p class="footer-address-links">
+<!--                        <a href="tel:+1631237884">+163 123 7884</a>-->
+                        <a href="mailto:support@futurecoin.global" class="mail">support@futurecoin.global</a>
+<!--                        <span class="address">Melbourne, Australia, 105 South Park Avenue</span>-->
+                    </p>
+                    <h4 class="footer-meta">stay connected on.</h4>
+                    <ul class="footer-link">
+                        <li><a href="javascript:alert('Coming soon')" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="javascript:alert('Coming soon')" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="javascript:alert('Coming soon')" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="javascript:alert('Coming soon')" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div><!-- end footer-shared -->
+            </div><!-- end col-lg-3 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-shared footer-widget">
+                    <h3 class="footer-title">company.
+                        <span class="footer-title-shape"></span>
+                        <span class="footer-title-shape"></span>
+                        <span class="footer-title-shape"></span>
+                    </h3>
+                    <ul class="footer-link company-link">
+                        <li><a href="https://file.futurecoin.global/file/futurecoin/FutureCoin+White+Paper.pdf">White Paper</a></li>
+                    </ul>
+                </div><!-- end footer-shared -->
+            </div><!-- end col-lg-3 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-shared footer-widget2">
+                    <h3 class="footer-title">help & support.
+                        <span class="footer-title-shape"></span>
+                        <span class="footer-title-shape"></span>
+                        <span class="footer-title-shape"></span>
+                    </h3>
+                    <ul class="footer-link company-link">
+                        <li><a href="https://testnet.fucscan.com/">TestNet Explorer</a></li>
+                        <li><a href="https://testnet.fuc-wallet.com/">TestNet Web Wallet</a></li>
+                    </ul>
+                </div><!-- end footer-shared -->
+            </div><!-- end col-lg-3 -->
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-shared footer-widget3">
+                    <h3 class="footer-title">quick links.
+                        <span class="footer-title-shape"></span>
+                        <span class="footer-title-shape"></span>
+                        <span class="footer-title-shape"></span>
+                    </h3>
+                    <ul class="footer-link company-link">
+                        <li><a target="_blank" href="https://fucexchange.com">Exchange</a></li>
+                        <li><a href="https://wallet.fucexchange.com">Pre Wallet</a></li>
+                    </ul>
+                </div><!-- end footer-shared -->
+            </div><!-- end col-lg-3 -->
+        </div><!-- end row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="divider">
+                    <span class="divider__circle"></span>
+                </div><!-- end divider -->
+            </div><!-- end col-lg-12 -->
+        </div><!-- end row -->
+        <div class="copyright-content row">
+            <div class="col-lg-6">
+                <p class="copy__desc">Copyright &copy; 2022.futurecoin.global All rights reserved.</p>
+            </div><!-- end col-lg-6 -->
+        </div><!-- end copyright-content -->
+    </div><!-- end container -->
+</section><!-- end footer-area -->
+<!-- ================================
+          END FOOTER AREA
+================================= -->
+
+<!-- start back-to-top -->
+<div id="back-to-top">
+    <i class="fas fa-angle-up" title="Go top"></i>
+</div>
+<!-- end back-to-top -->
+
+<!-- Template JS Files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/language.js?v=1"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/waypoint.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/smooth-scrolling.js"></script>
+<script src="js/jquery-nice-select.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
